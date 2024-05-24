@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# Universal Storybook with NativeWind in Expo Project
+Welcome to the Universal Storybook setup for an Expo project with NativeWind. This guide will help you run Storybook on both web and mobile platforms, ensuring a consistent UI development experience across environments.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Prerequisites
+Before starting, ensure you have the following installed:
 
-## Get started
+- Node.js (>18) and npm
+- Expo CLI
+- Storybook CLI
 
-1. Install dependencies
+## Setup Instructions
 
-   ```bash
-   npm install
-   ```
+- Clone this repo
+- Install the dependencies
+  `npm install`
+- Write your own Stories
+- Run the storybook
 
-2. Start the app
+## How to run this storybook on web
+```bash npm run storybook:web```
 
-   ```bash
-    npx expo start
-   ```
+### How to run the storybook on native
+```bash npm run storybook:ios```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```bash npm run storybook:android```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+### How to run the expo application
+```bash npm run start```
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
